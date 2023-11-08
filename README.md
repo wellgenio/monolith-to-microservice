@@ -8,7 +8,7 @@ Nesse projeto, esperamos conseguir evoluir com sucesso em direção a um sistema
 
 Supondo que você tenha o `docker-compose` instalado
 
-`docker-compose up`
+`docker-compose up -d`
 
 # Ideias gerais
 
@@ -34,3 +34,14 @@ Haverá algum tipo de ideia de quais igredientes estão na casa e quais são seu
 4. **Encontre refeições** Uma lista de receitas com base nos ingredientes disponíveis.
 
 5. **Gerenciar receitas (add, remove, etc.)**
+
+## Diary
+
+    Querido diário...
+
+### Step 1
+
+Conforme documentado, o objetivo desta iteração é configurar um projeto simples de "Olá Mundo". Você pode verificar isso usando `curl http://localhost:8080/`
+
+Uma duvida que você talvez tenha seria: "por que usar `docker-compose` para rodar um 'hello world'?" Primeiro por que é um jeito simples de executar o código e posteriormente se desejamos adicionar outras dependências, como banco de dados, já estaremos preparados para isso.
+
