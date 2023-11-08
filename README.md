@@ -4,6 +4,12 @@ Considero que iniciar um projeto com microsserviços é uma perda de tempo e uma
 
 Nesse projeto, esperamos conseguir evoluir com sucesso em direção a um sistema distribuido a partir de um monolítico, desde que mantenhamos um nível descente de refatoração.
 
+# Para rodar o projeto
+
+Supondo que você tenha o `docker-compose` instalado
+
+`docker-compose up`
+
 # Ideias gerais
 
 - Para manter a execução consistente, use `docker-compose`. Isso tornará as coisas mais suaves à medida que vamos evoluindo o projeto.
@@ -13,7 +19,7 @@ Nesse projeto, esperamos conseguir evoluir com sucesso em direção a um sistema
 
 # O Problema
 
-    Queremos saber o que faszer para o jantar!
+    Queremos saber o que fazer para o jantar!
 
 Haverá algum tipo de ideia de quais igredientes estão na casa e quais são seus prazos de validade. Teremos também um livro de receitas para derivar as refeições.
 
